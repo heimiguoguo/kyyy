@@ -1,0 +1,185 @@
+{
+    "paperName": "2017年全国硕士研究生入学统一考试英语(一)",
+    "questionList": [
+        {
+            "questionIndex": 1,
+            "answers": {
+                "A": "Unlike",
+                "B": "Besides",
+                "C": "Despite",
+                "D": "Throughout"
+            }
+        },
+        {
+            "questionIndex": 2,
+            "answers": {
+                "A": "connected",
+                "B": "restricted",
+                "C": "equal",
+                "D": "inferior"
+            }
+        },
+        {
+            "questionIndex": 3,
+            "answers": {
+                "A": "choice",
+                "B": "view",
+                "C": "lesson",
+                "D": "host"
+            }
+        },
+        {
+            "questionIndex": 4,
+            "answers": {
+                "A": "recall",
+                "B": "forget",
+                "C": "avoid",
+                "D": "keep"
+            }
+        },
+        {
+            "questionIndex": 5,
+            "answers": {
+                "A": "collecting",
+                "B": "involving",
+                "C": "guiding",
+                "D": "affecting"
+            }
+        },
+        {
+            "questionIndex": 6,
+            "answers": {
+                "A": "of",
+                "B": "in",
+                "C": "at",
+                "D": "on"
+            }
+        },
+        {
+            "questionIndex": 7,
+            "answers": {
+                "A": "devoted",
+                "B": "exposed",
+                "C": "lost",
+                "D": "attracted"
+            }
+        },
+        {
+            "questionIndex": 8,
+            "answers": {
+                "A": "across",
+                "B": "along",
+                "C": "down",
+                "D": "out"
+            }
+        },
+        {
+            "questionIndex": 9,
+            "answers": {
+                "A": "calculated",
+                "B": "denied",
+                "C": "doubted",
+                "D": "imagined"
+            }
+        },
+        {
+            "questionIndex": 10,
+            "answers": {
+                "A": "served",
+                "B": "required",
+                "C": "restored",
+                "D": "explained"
+            }
+        },
+        {
+            "questionIndex": 11,
+            "answers": {
+                "A": "Even",
+                "B": "Still",
+                "C": "Rather",
+                "D": "Thus"
+            }
+        },
+        {
+            "questionIndex": 12,
+            "answers": {
+                "A": "defeats",
+                "B": "symptoms",
+                "C": "tests",
+                "D": "errors"
+            }
+        },
+        {
+            "questionIndex": 13,
+            "answers": {
+                "A": "minimized",
+                "B": "highlighted",
+                "C": "controlled",
+                "D": "increased"
+            }
+        },
+        {
+            "questionIndex": 14,
+            "answers": {
+                "A": "equipped",
+                "B": "associated",
+                "C": "presented",
+                "D": "compared"
+            }
+        },
+        {
+            "questionIndex": 15,
+            "answers": {
+                "A": "assess",
+                "B": "moderate",
+                "C": "generate",
+                "D": "record"
+            }
+        },
+        {
+            "questionIndex": 16,
+            "answers": {
+                "A": "in the face of",
+                "B": "in the form of",
+                "C": "in the way of",
+                "D": "in the name of"
+            }
+        },
+        {
+            "questionIndex": 17,
+            "answers": {
+                "A": "transfer",
+                "B": "commit",
+                "C": "attribute",
+                "D": "return"
+            }
+        },
+        {
+            "questionIndex": 18,
+            "answers": {
+                "A": "because",
+                "B": "unless",
+                "C": "though",
+                "D": "until"
+            }
+        },
+        {
+            "questionIndex": 19,
+            "answers": {
+                "A": "emerges",
+                "B": "vanishes",
+                "C": "remains",
+                "D": "decreases"
+            }
+        },
+        {
+            "questionIndex": 20,
+            "answers": {
+                "A": "experiences",
+                "B": "combines",
+                "C": "justifies",
+                "D": "influences"
+            }
+        }
+    ]
+}

@@ -1,0 +1,223 @@
+{
+    "paperName": "2018年全国硕士研究生入学统一考试英语(一)",
+    "paragraphList": [
+        {
+            "paragraphIndex": 1,
+            "content": "　　Trust is a tricky business. On the one hand, it's a necessary condition 1 many worthwhile things: child care, friendships, etc. On the other hand, putting your 2, in the wrong place often carries a high 3.\r"
+        },
+        {
+            "paragraphIndex": 2,
+            "content": "　　4, why do we trust at all? Well, because it feels good. 5 people place their trust in an individual or an institution, their brains release oxytocin, a hormone that 6 pleasurable feelings and triggers the herding instruct that prompts humans to 7 with one another. Scientists have found that exposure 8 this hormone puts us in a trusting 9: In a Swiss study, researchers sprayed oxytocin into the noses of half the subjects; those subjects were ready to lend significantly higher amounts of money to strangers than were their 10 who inhaled something else.\r"
+        },
+        {
+            "paragraphIndex": 3,
+            "content": "　　11 for us, we also have a sixth sense for dishonesty that may 12 us. A Canadian study found that children as young as 14 months can differentiate 13 a credible person and a dishonest one. Sixty toddlers were each 14 to an adult tester holding a plastic container. The tester would ask, “What’s in here?” before looking into the container, smiling, and exclaiming, “Wow!” Each subject was then invited to look 15. Half of them found a toy; the other half 16 the container was empty-and realized the tester had 17 them.\r"
+        },
+        {
+            "paragraphIndex": 4,
+            "content": "　　Among the children who had not been tricked, the majority were 18 to cooperate with the tester in learning a new skill, demonstrating that they trusted his leadership. 19, only five of the 30 children paired with the “20”tester participated in a follow-up activity.\r"
+        }
+    ],
+    "questionList": [
+        {
+            "questionIndex": 1,
+            "answers": {
+                "A": "on",
+                "B": "like",
+                "C": "for",
+                "D": "from"
+            },
+            "rightAnswer": "C"
+        },
+        {
+            "questionIndex": 2,
+            "answers": {
+                "A": "faith",
+                "B": "concern",
+                "C": "attention",
+                "D": "interest"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 3,
+            "answers": {
+                "A": "benefit",
+                "B": "debt",
+                "C": "hope",
+                "D": "price"
+            },
+            "rightAnswer": "D"
+        },
+        {
+            "questionIndex": 4,
+            "answers": {
+                "A": "Therefore",
+                "B": "Then",
+                "C": "Instead",
+                "D": "Again"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 5,
+            "answers": {
+                "A": "Until",
+                "B": "Unless",
+                "C": "Although",
+                "D": "When"
+            },
+            "rightAnswer": "D"
+        },
+        {
+            "questionIndex": 6,
+            "answers": {
+                "A": "selects",
+                "B": "produces",
+                "C": "applies",
+                "D": "maintains"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 7,
+            "answers": {
+                "A": "consult",
+                "B": "compete",
+                "C": "connect",
+                "D": "compare"
+            },
+            "rightAnswer": "C"
+        },
+        {
+            "questionIndex": 8,
+            "answers": {
+                "A": "at",
+                "B": "by",
+                "C": "of",
+                "D": "to"
+            },
+            "rightAnswer": "D"
+        },
+        {
+            "questionIndex": 9,
+            "answers": {
+                "A": "context",
+                "B": "mood",
+                "C": "period",
+                "D": "circle"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 10,
+            "answers": {
+                "A": "counterparts",
+                "B": "substitutes",
+                "C": "colleagues",
+                "D": "supporters"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 11,
+            "answers": {
+                "A": "Funny",
+                "B": "Lucky",
+                "C": "Odd",
+                "D": "Ironic"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 12,
+            "answers": {
+                "A": "monitor",
+                "B": "protect",
+                "C": "surprise",
+                "D": "delight"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 13,
+            "answers": {
+                "A": "between",
+                "B": "within",
+                "C": "toward",
+                "D": "over"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 14,
+            "answers": {
+                "A": "transferred",
+                "B": "added",
+                "C": "introduced",
+                "D": "entrusted"
+            },
+            "rightAnswer": "C"
+        },
+        {
+            "questionIndex": 15,
+            "answers": {
+                "A": "out",
+                "B": "back",
+                "C": "around",
+                "D": "inside"
+            },
+            "rightAnswer": "D"
+        },
+        {
+            "questionIndex": 16,
+            "answers": {
+                "A": "discovered",
+                "B": "proved",
+                "C": "insisted",
+                "D": ".remembered"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 17,
+            "answers": {
+                "A": "betrayed",
+                "B": "wronged",
+                "C": "fooled",
+                "D": "mocked"
+            },
+            "rightAnswer": "C"
+        },
+        {
+            "questionIndex": 18,
+            "answers": {
+                "A": "forced",
+                "B": "willing",
+                "C": "hesitant",
+                "D": "entitled"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 19,
+            "answers": {
+                "A": "In contrast",
+                "B": "As a result",
+                "C": "On the whole",
+                "D": "For instance"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 20,
+            "answers": {
+                "A": "inflexible",
+                "B": "incapable",
+                "C": "unreliable",
+                "D": "unsuitable"
+            },
+            "rightAnswer": "C"
+        }
+    ]
+}

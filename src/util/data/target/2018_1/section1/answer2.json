@@ -1,0 +1,185 @@
+{
+    "paperName": "2018年全国硕士研究生入学统一考试英语(一)",
+    "questionList": [
+        {
+            "questionIndex": 1,
+            "answers": {
+                "A": "on",
+                "B": "like",
+                "C": "for",
+                "D": "from"
+            }
+        },
+        {
+            "questionIndex": 2,
+            "answers": {
+                "A": "faith",
+                "B": "concern",
+                "C": "attention",
+                "D": "interest"
+            }
+        },
+        {
+            "questionIndex": 3,
+            "answers": {
+                "A": "benefit",
+                "B": "debt",
+                "C": "hope",
+                "D": "price"
+            }
+        },
+        {
+            "questionIndex": 4,
+            "answers": {
+                "A": "Therefore",
+                "B": "Then",
+                "C": "Instead",
+                "D": "Again"
+            }
+        },
+        {
+            "questionIndex": 5,
+            "answers": {
+                "A": "Until",
+                "B": "Unless",
+                "C": "Although",
+                "D": "When"
+            }
+        },
+        {
+            "questionIndex": 6,
+            "answers": {
+                "A": "selects",
+                "B": "produces",
+                "C": "applies",
+                "D": "maintains"
+            }
+        },
+        {
+            "questionIndex": 7,
+            "answers": {
+                "A": "consult",
+                "B": "compete",
+                "C": "connect",
+                "D": "compare"
+            }
+        },
+        {
+            "questionIndex": 8,
+            "answers": {
+                "A": "at",
+                "B": "by",
+                "C": "of",
+                "D": "to"
+            }
+        },
+        {
+            "questionIndex": 9,
+            "answers": {
+                "A": "context",
+                "B": "mood",
+                "C": "period",
+                "D": "circle"
+            }
+        },
+        {
+            "questionIndex": 10,
+            "answers": {
+                "A": "counterparts",
+                "B": "substitutes",
+                "C": "colleagues",
+                "D": "supporters"
+            }
+        },
+        {
+            "questionIndex": 11,
+            "answers": {
+                "A": "Funny",
+                "B": "Lucky",
+                "C": "Odd",
+                "D": "Ironic"
+            }
+        },
+        {
+            "questionIndex": 12,
+            "answers": {
+                "A": "monitor",
+                "B": "protect",
+                "C": "surprise",
+                "D": "delight"
+            }
+        },
+        {
+            "questionIndex": 13,
+            "answers": {
+                "A": "between",
+                "B": "within",
+                "C": "toward",
+                "D": "over"
+            }
+        },
+        {
+            "questionIndex": 14,
+            "answers": {
+                "A": "transferred",
+                "B": "added",
+                "C": "introduced",
+                "D": "entrusted"
+            }
+        },
+        {
+            "questionIndex": 15,
+            "answers": {
+                "A": "out",
+                "B": "back",
+                "C": "around",
+                "D": "inside"
+            }
+        },
+        {
+            "questionIndex": 16,
+            "answers": {
+                "A": "discovered",
+                "B": "proved",
+                "C": "insisted",
+                "D": ".remembered"
+            }
+        },
+        {
+            "questionIndex": 17,
+            "answers": {
+                "A": "betrayed",
+                "B": "wronged",
+                "C": "fooled",
+                "D": "mocked"
+            }
+        },
+        {
+            "questionIndex": 18,
+            "answers": {
+                "A": "forced",
+                "B": "willing",
+                "C": "hesitant",
+                "D": "entitled"
+            }
+        },
+        {
+            "questionIndex": 19,
+            "answers": {
+                "A": "In contrast",
+                "B": "As a result",
+                "C": "On the whole",
+                "D": "For instance"
+            }
+        },
+        {
+            "questionIndex": 20,
+            "answers": {
+                "A": "inflexible",
+                "B": "incapable",
+                "C": "unreliable",
+                "D": "unsuitable"
+            }
+        }
+    ]
+}

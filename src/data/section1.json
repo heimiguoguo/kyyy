@@ -1,0 +1,224 @@
+{
+    "paperName": "2017年全国硕士研究生入学统一考试 英语(一)",
+    "direction": "Read the following text. Choose the best word (s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)",
+    "paragraphList": [
+        {
+            "paragraphIndex": 1,
+            "content": "Could a hug a day keep the doctor away? The answer may be a resounding “yes!” 1 helping you feel close and 2 to people you care about, it turns out that hugs can bring a 3 of health benefits to your body and mind. Believe it or not, a warm embrace might even help you 4 getting sick this winter.\r"
+        },
+        {
+            "paragraphIndex": 2,
+            "content": "In a recent study 5 over 400 health adults, researchers from Carnegie Mellon University in Pennsylvania examined the effects of perceived social support and the receipt of hugs 6 the participants’ susceptibility to developing the common cold after being 7 to the virus .People who perceived greater social support were less likely to come 8 with a cold ,and the researchers 9 that the stress-reducing effects of hugging 10 about 32 percent of that beneficial effect. 11 among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe 12 .\r"
+        },
+        {
+            "paragraphIndex": 3,
+            "content": "“Hugging protects people who are under stress from the 13 risk for colds that’s usually 14 with stress,” notes Sheldon Cohen, a professor of psychology at Carnegie. Hugging “is a marker of intimacy and helps 15 the feeling that others are there to help 16 difficulty.”\r"
+        },
+        {
+            "paragraphIndex": 4,
+            "content": "Some experts 17 the stress-reducing , health-related benefits of hugging to the release of oxytocin, often called “the bonding hormone” 18 it promotes attachment in relationships, including that between mother and their newborn babies. Oxytocin is made primarily in the central lower part of the brain , and some of it is released into the bloodstream. But some of it 19 in the brain, where it 20 mood, behavior and physiology.\r"
+        }
+    ],
+    "questionList": [
+        {
+            "questionIndex": 1,
+            "answers": {
+                "A": "Unlike",
+                "B": "Besides",
+                "C": "Despite",
+                "D": "Throughout"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 2,
+            "answers": {
+                "A": "connected",
+                "B": "restricted",
+                "C": "equal",
+                "D": "inferior"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 3,
+            "answers": {
+                "A": "choice",
+                "B": "view",
+                "C": "lesson",
+                "D": "host"
+            },
+            "rightAnswer": "D"
+        },
+        {
+            "questionIndex": 4,
+            "answers": {
+                "A": "recall",
+                "B": "forget",
+                "C": "avoid",
+                "D": "keep"
+            },
+            "rightAnswer": "C"
+        },
+        {
+            "questionIndex": 5,
+            "answers": {
+                "A": "collecting",
+                "B": "involving",
+                "C": "guiding",
+                "D": "affecting"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 6,
+            "answers": {
+                "A": "of",
+                "B": "in",
+                "C": "at",
+                "D": "on"
+            },
+            "rightAnswer": "D"
+        },
+        {
+            "questionIndex": 7,
+            "answers": {
+                "A": "devoted",
+                "B": "exposed",
+                "C": "lost",
+                "D": "attracted"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 8,
+            "answers": {
+                "A": "across",
+                "B": "along",
+                "C": "down",
+                "D": "out"
+            },
+            "rightAnswer": "C"
+        },
+        {
+            "questionIndex": 9,
+            "answers": {
+                "A": "calculated",
+                "B": "denied",
+                "C": "doubted",
+                "D": "imagined"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 10,
+            "answers": {
+                "A": "served",
+                "B": "required",
+                "C": "restored",
+                "D": "explained"
+            },
+            "rightAnswer": "D"
+        },
+        {
+            "questionIndex": 11,
+            "answers": {
+                "A": "Even",
+                "B": "Still",
+                "C": "Rather",
+                "D": "Thus"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 12,
+            "answers": {
+                "A": "defeats",
+                "B": "symptoms",
+                "C": "tests",
+                "D": "errors"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 13,
+            "answers": {
+                "A": "minimized",
+                "B": "highlighted",
+                "C": "controlled",
+                "D": "increased"
+            },
+            "rightAnswer": "D"
+        },
+        {
+            "questionIndex": 14,
+            "answers": {
+                "A": "equipped",
+                "B": "associated",
+                "C": "presented",
+                "D": "compared"
+            },
+            "rightAnswer": "B"
+        },
+        {
+            "questionIndex": 15,
+            "answers": {
+                "A": "assess",
+                "B": "moderate",
+                "C": "generate",
+                "D": "record"
+            },
+            "rightAnswer": "C"
+        },
+        {
+            "questionIndex": 16,
+            "answers": {
+                "A": "in the face of",
+                "B": "in the form of",
+                "C": "in the way of",
+                "D": "in the name of"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 17,
+            "answers": {
+                "A": "transfer",
+                "B": "commit",
+                "C": "attribute",
+                "D": "return"
+            },
+            "rightAnswer": "C"
+        },
+        {
+            "questionIndex": 18,
+            "answers": {
+                "A": "because",
+                "B": "unless",
+                "C": "though",
+                "D": "until"
+            },
+            "rightAnswer": "A"
+        },
+        {
+            "questionIndex": 19,
+            "answers": {
+                "A": "emerges",
+                "B": "vanishes",
+                "C": "remains",
+                "D": "decreases"
+            },
+            "rightAnswer": "C"
+        },
+        {
+            "questionIndex": 20,
+            "answers": {
+                "A": "experiences",
+                "B": "combines",
+                "C": "justifies",
+                "D": "influences"
+            },
+            "rightAnswer": "D"
+        }
+    ]
+}

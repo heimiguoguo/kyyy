@@ -6,10 +6,7 @@ import App from './App.vue';
 import Section1 from './components/section1.vue'
 import Section2 from './components/section2/index.vue'
 import Section2PartA from './components/section2/partA/index.vue'
-import Section2PartAText1 from './components/section2/partA/text1.vue'
-import Section2PartAText2 from './components/section2/partA/text2.vue'
-import Section2PartAText3 from './components/section2/partA/text3.vue'
-import Section2PartAText4 from './components/section2/partA/text4.vue'
+import Section2PartAText from './components/section2/partA/text.vue'
 import Section2PartB from './components/section2/partB.vue'
 import Section2PartC from './components/section2/partC.vue'
 import Section3 from './components/section3.vue'
@@ -46,7 +43,7 @@ const router = new VueRouter({
       component: Section1,
       props: {
         section1,
-        answerSheet_section1: ["",""]
+        answerSheet_section1: []
       }
     },
     {
@@ -66,20 +63,8 @@ const router = new VueRouter({
           component:Section2PartA,
           children: [
             {
-              path: 'text1',
-              component: Section2PartAText1
-            },
-            {
-              path: 'text2',
-              component: Section2PartAText2
-            },
-            {
-              path: 'text3',
-              component: Section2PartAText3
-            },
-            {
-              path: 'text4',
-              component: Section2PartAText4
+              path: 'text/:index',
+              component: Section2PartAText
             }
           ]
         },

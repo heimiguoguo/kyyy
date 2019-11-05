@@ -7,7 +7,7 @@
       <el-aside style="width:'201px'">
         <Outline></Outline>
       </el-aside>
-      <el-main>
+      <el-main id="section">
         <router-view></router-view>
       </el-main>
     </el-container>
@@ -22,7 +22,7 @@ export default {
     Outline
   },
   mounted() {
-    $("#main").css("height", $(window).height() - 60 + "px");
+    // $("#main").css("height", $(window).height() - 60 + "px");
   },
   data() {
     return {
@@ -33,7 +33,7 @@ export default {
 </script>
 
 
-<style>
+<style lang="less">
 * {
   margin: 0;
   padding: 0;
@@ -51,38 +51,21 @@ export default {
   background-color: rgb(84, 92, 100);
 }
 
-.module-article-content {
-  width: 1200px;
-  min-width: 1200px;
-  margin: 0 auto;
-}
-
-#article-main {
-  width: 900px;
-  height: 100%;
-  float: right;
-  overflow-y: scroll;
-}
-
-#J-article-content {
-  margin: 10px;
-}
-
-.section_title, .direction, .paragraph {
-  font-size: 12pt;
+#section {
+  font-size: 13pt;
   font-family: "Times New Roman", "serif";
   line-height: 24px;
-}
 
-.direction{
-  font-style: italic;
-}
+  .direction {
+    font-style: italic;
+  }
 
-.passage{
-  margin-bottom: 20px;
-}
+  .passage {
+    margin-bottom: 20px;
 
-.paragraph{
-  text-indent: 24px;
+    .paragraph {
+      text-indent: 24px;
+    }
+  }
 }
 </style>

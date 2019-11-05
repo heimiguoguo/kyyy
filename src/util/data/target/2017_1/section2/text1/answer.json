@@ -1,0 +1,52 @@
+[
+    {
+        "index": 21,
+        "question": "According to Paragraph 1, Parkrun has_____.",
+        "options": {
+            "A": "gained great popularity",
+            "B": "created many jobs",
+            "C": "strengthened community ties",
+            "D": "become an official festival"
+        }
+    },
+    {
+        "index": 22,
+        "question": "The author believes that London’s Olympic “legacy” has failed to _____.",
+        "options": {
+            "A": "boost population growth",
+            "B": "promote sport participation",
+            "C": "improve the city’s image",
+            "D": "increase sport hours in schools"
+        }
+    },
+    {
+        "index": 23,
+        "question": "Parkrun is different form Olympic games in that it ____.",
+        "options": {
+            "A": "aims at discovering talents",
+            "B": "focuses on mass competition",
+            "C": "does not emphasize elitism",
+            "D": "does not attract first-timers"
+        }
+    },
+    {
+        "index": 24,
+        "question": "With regard to mass sports, the author holds that governments should______.",
+        "options": {
+            "A": "organize “grassroots” sports events",
+            "B": "supervise local sports associations",
+            "C": "increase funds for sports clubs",
+            "D": "invest in pubic sports facilities"
+        }
+    },
+    {
+        "index": 25,
+        "question": "The author’s attitude to what UK governments have to done for sports is _____.",
+        "options": {
+            "A": "tolerant",
+            "B": "critical",
+            "C": "uncertain",
+            "D": "sympathetic"
+        }
+    }
+]

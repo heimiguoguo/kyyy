@@ -55,7 +55,7 @@ export default {
                 type: "NONE",
                 childs: [
                   {
-                    id: "section2_partA_text1",
+                    id: "section2_partA_text/1",
                     parentMenuId: 0,
                     name: "Text 1",
                     icon: "el-icon-message",
@@ -64,7 +64,7 @@ export default {
                     type: "NONE"
                   },
                   {
-                    id: "section2_partA_text2",
+                    id: "section2_partA_text/2",
                     parentMenuId: 0,
                     name: "Text 2",
                     icon: "el-icon-message",
@@ -73,7 +73,7 @@ export default {
                     type: "NONE"
                   },
                   {
-                    id: "section2_partA_text3",
+                    id: "section2_partA_text/3",
                     parentMenuId: 0,
                     name: "Text 3",
                     icon: "el-icon-message",
@@ -82,7 +82,7 @@ export default {
                     type: "NONE"
                   },
                   {
-                    id: "section2_partA_text4",
+                    id: "section2_partA_text/4",
                     parentMenuId: 0,
                     name: "Text 4",
                     icon: "el-icon-message",

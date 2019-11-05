@@ -8,11 +8,5 @@
     <router-view></router-view>
   </div>
 </template>
-<style lang="less">
-.text_title {
-  color: tomato;
-  text-align: center;
-}
-</style>
 
 

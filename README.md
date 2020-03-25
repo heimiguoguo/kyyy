@@ -1,5 +1,5 @@
-# kyyy
-### 自己动手搭建的vue开发环境，搭建考研英语在线考试平台
+# 基于Webpack搭建的Vue开发环境
+# 搭建考研英语在线考试平台
 
 * .vue文件中style标签用scoped修改以后，样式不能穿透子组件，要修改子组件的内部样式，需要用'/deep/'(Less/Sass)或者'>>>'(Stylus)穿透，具体参考[Vue中的scoped和scoped穿透](https://segmentfault.com/a/1190000015932467?utm_source=tag-newest)
 
@@ -9,4 +9,9 @@
 ![image](./src/imgs/NavMenu.png)
 
 
+* [X] A
+* [ ] B
+* [ ] C
 
+
+:blush:

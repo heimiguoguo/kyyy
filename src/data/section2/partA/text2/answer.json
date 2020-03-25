@@ -1,1 +1,52 @@
-[{"index":26,"question":"Queen Liliuokalani’s remark in Paragraph 1 indicates","options":{"A":"its conservative view on the historical role of astronomy.","B":"the importance of astronomy in ancient Hawaiian society.","C":"the regrettable decline of astronomy in ancient times.","D":"her appreciation of star watchers’ feats in her time."}},{"index":27,"question":"Mauna Kea is deemed as an ideal astronomical site due to","options":{"A":"its geographical features","B":"its protective surroundings.","C":"its religious implications.","D":"its existing infrastructure."}},{"index":28,"question":"The construction of the TMT is opposed by some locals partly because","options":{"A":"it may risk ruining their intellectual life.","B":"it reminds them of a humiliating history.","C":"their culture will lose a chance of revival.","D":"they fear losing control of Mauna Kea."}},{"index":29,"question":"It can be inferred from Paragraph 5 that progress in today’s astronomy","options":{"A":"is fulfilling the dreams of ancient Hawaiians.","B":"helps spread Hawaiian culture across the world.","C":"may uncover the origin of Hawaiian culture.","D":"will eventually soften Hawaiians’ hostility."}},{"index":30,"question":"The author’s attitude toward choosing Mauna Kea as the TMT site is one of","options":{"A":"severe criticism.","B":"passive acceptance.","C":"slight hesitancy.","D":"full approval."}}]
+[
+    {
+        "index": 26,
+        "question": "Queen Liliuokalani’s remark in Paragraph 1 indicates",
+        "options": {
+            "A": "its conservative view on the historical role of astronomy.",
+            "B": "the importance of astronomy in ancient Hawaiian society.",
+            "C": "the regrettable decline of astronomy in ancient times.",
+            "D": "her appreciation of star watchers’ feats in her time."
+        }
+    },
+    {
+        "index": 27,
+        "question": "Mauna Kea is deemed as an ideal astronomical site due to",
+        "options": {
+            "A": "its geographical features",
+            "B": "its protective surroundings.",
+            "C": "its religious implications.",
+            "D": "its existing infrastructure."
+        }
+    },
+    {
+        "index": 28,
+        "question": "The construction of the TMT is opposed by some locals partly because",
+        "options": {
+            "A": "it may risk ruining their intellectual life.",
+            "B": "it reminds them of a humiliating history.",
+            "C": "their culture will lose a chance of revival.",
+            "D": "they fear losing control of Mauna Kea."
+        }
+    },
+    {
+        "index": 29,
+        "question": "It can be inferred from Paragraph 5 that progress in today’s astronomy",
+        "options": {
+            "A": "is fulfilling the dreams of ancient Hawaiians.",
+            "B": "helps spread Hawaiian culture across the world.",
+            "C": "may uncover the origin of Hawaiian culture.",
+            "D": "will eventually soften Hawaiians’ hostility."
+        }
+    },
+    {
+        "index": 30,
+        "question": "The author’s attitude toward choosing Mauna Kea as the TMT site is one of",
+        "options": {
+            "A": "severe criticism.",
+            "B": "passive acceptance.",
+            "C": "slight hesitancy.",
+            "D": "full approval."
+        }
+    }
+]

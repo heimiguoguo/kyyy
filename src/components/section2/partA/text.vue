@@ -1,6 +1,6 @@
 <template>
   <div class="text">
-    <div class="text_title">Text {{$route.params.index}}</div>
+    <!-- <Instruction :direction='direction'></Instruction> -->
     <el-card>
       <el-row :gutter="40">
         <el-col :span="12">
@@ -33,9 +33,14 @@
 
 
 <script>
-// import paragraphList from "../../../data/section2/partA/text1/passage.json";
-// import questionList from "../../../data/section2/partA/text1/answer.json";
+import Instruction from "../../Instruction.vue";
 export default {
+  components:{
+    Instruction
+  },
+  props:{
+    direction:String
+  },
   data() {
     return {
       paragraphList: [],
@@ -43,8 +48,9 @@ export default {
       answerSheet: []
     };
   },
+  
   mounted() {
-    // console.log(this.$route.params.index);
+    // console.log(this.$route);
     this.fetchData();
   },
   watch: {
@@ -52,7 +58,6 @@ export default {
   },
   methods: {
     fetchData() {
-      // console.log("fetch data...");
       this.paragraphList = require(`../../../data/section2/partA/text${this.$route.params.index}/passage.json`);
       this.questionList = require(`../../../data/section2/partA/text${this.$route.params.index}/answer.json`);
     }
@@ -62,11 +67,6 @@ export default {
 
 
 <style lang="less" scoped>
-.text_title {
-  color: tomato;
-  text-align: center;
-}
-
 .question_wrapper {
   line-height: 24px;
   .question {

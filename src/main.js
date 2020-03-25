@@ -12,29 +12,14 @@ import Section2PartC from './components/section2/partC.vue'
 import Section3 from './components/section3.vue'
 
 import section1 from './data/section1.json'
-// import Footer from './footer.jsx'
-// import $ from 'jquery';
-// import 'ztree/css/zTreeStyle/zTreeStyle.css'
-// import 'ztree'
+import section2_partA from './data/section1'
 
 Vue.use(ElementUI)
 Vue.use(VueRouter)
 
 const root = document.createElement("div");
 document.body.appendChild(root);
-// window.$ = $;
-// $(function () {
-//   $(".module-article-content").css('height', $(window).height())
-// })
 
-// $.ajax({
-//   url: '/user/getAllUsers',
-//   type: 'get',
-//   dataType: 'json',
-//   success: function (data) {
-//     console.log(data);
-//   }
-// })
 
 const router = new VueRouter({
   routes: [
@@ -57,30 +42,36 @@ const router = new VueRouter({
     {
       path: '/section2',
       component: Section2,
+      props: {
+        section2: section2_partA
+      },
       children: [
         {
           path: 'partA',
-          component:Section2PartA,
+          component: Section2PartA,
           children: [
             {
               path: 'text/:index',
-              component: Section2PartAText
+              component: Section2PartAText,
+              props: {
+                direction: section2_partA.direction
+              },
             }
           ]
         },
         {
-          path:'partB',
-          component:Section2PartB
+          path: 'partB',
+          component: Section2PartB
         },
         {
-          path:'partC',
-          component:Section2PartC
+          path: 'partC',
+          component: Section2PartC
         }
       ]
     },
     {
-      path:'/section3',
-      component:Section3
+      path: '/section3',
+      component: Section3
     }
   ]
 })

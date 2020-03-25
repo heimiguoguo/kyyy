@@ -1,9 +1,10 @@
 <template>
   <div>
-    <!--左侧菜单组件-->
     <el-menu
       default-active="0"
       :default-openeds="['section2','section2_partA']"
+      :collapse="collapse"
+      class="el-menu-vertical-demo"
       background-color="#545c64"
       text-color="#fff"
       active-text-color="#ffd04b"
@@ -11,7 +12,45 @@
       @open="onSubMenuOpen"
       router
     >
-      <NestedMenu :navMenus="navMenus.childs"></NestedMenu>
+      <template v-for="navMenu in navMenus">
+        <el-menu-item
+          v-if="!navMenu.childs"
+          :key="navMenu.id"
+          :index="'/'+navMenu.id.replace(/_/g,'/')"
+        >
+          <i :class="navMenu.icon"></i>
+          <span slot="title">{{navMenu.alias}}</span>
+        </el-menu-item>
+
+        <el-submenu v-if="navMenu.childs" :key="navMenu.id" :index="navMenu.id">
+          <template slot="title">
+            <i :class="navMenu.icon"></i>
+            <span>{{navMenu.alias}}</span>
+          </template>
+          <template v-for="navMenu in navMenu.childs">
+            <el-menu-item
+              v-if="!navMenu.childs"
+              :key="navMenu.id"
+              :index="'/'+navMenu.id.replace(/_/g,'/')"
+            >
+              <i :class="navMenu.icon"></i>
+              <span slot="title">{{navMenu.alias}}</span>
+            </el-menu-item>
+            <el-submenu v-if="navMenu.childs" :key="navMenu.id" :index="navMenu.id">
+              <template slot="title">
+                <i :class="navMenu.icon"></i>
+                <span>{{navMenu.alias}}</span>
+              </template>
+              <template v-for="navMenu in navMenu.childs">
+                <el-menu-item :key="navMenu.id" :index="'/'+navMenu.id.replace(/_/g,'/')">
+                  <i :class="navMenu.icon"></i>
+                  <span slot="title">{{navMenu.alias}}</span>
+                </el-menu-item>
+              </template>
+            </el-submenu>
+          </template>
+        </el-submenu>
+      </template>
     </el-menu>
   </div>
 </template>
@@ -19,126 +58,34 @@
 
 <script>
 import NestedMenu from "./NestedMenu.vue";
+
 export default {
+  props: {
+    navMenus: Array,
+    collapse: Boolean,
+    onMenuItemSelect: Function
+  },
   components: {
     NestedMenu
   },
   data() {
-    return {
-      navMenus: {
-        childs: [
-          {
-            id: "section1",
-            parentMenuId: 0,
-            name: "section I",
-            icon: "el-icon-message",
-            alias: "Section I",
-            state: "ENABLE",
-            type: "NONE"
-          },
-          {
-            id: "section2",
-            parentMenuId: 0,
-            name: "section II",
-            icon: "el-icon-message",
-            alias: "Section II",
-            state: "ENABLE",
-            type: "NONE",
-            childs: [
-              {
-                id: "section2_partA",
-                parentMenuId: 0,
-                name: "Part A",
-                icon: "el-icon-message",
-                alias: "Part A",
-                state: "ENABLE",
-                type: "NONE",
-                childs: [
-                  {
-                    id: "section2_partA_text/1",
-                    parentMenuId: 0,
-                    name: "Text 1",
-                    icon: "el-icon-message",
-                    alias: "Text 1",
-                    state: "ENABLE",
-                    type: "NONE"
-                  },
-                  {
-                    id: "section2_partA_text/2",
-                    parentMenuId: 0,
-                    name: "Text 2",
-                    icon: "el-icon-message",
-                    alias: "Text 2",
-                    state: "ENABLE",
-                    type: "NONE"
-                  },
-                  {
-                    id: "section2_partA_text/3",
-                    parentMenuId: 0,
-                    name: "Text 3",
-                    icon: "el-icon-message",
-                    alias: "Text 3",
-                    state: "ENABLE",
-                    type: "NONE"
-                  },
-                  {
-                    id: "section2_partA_text/4",
-                    parentMenuId: 0,
-                    name: "Text 4",
-                    icon: "el-icon-message",
-                    alias: "Text 4",
-                    state: "ENABLE",
-                    type: "NONE"
-                  }
-                ]
-              },
-              {
-                id: "section2_partB",
-                parentMenuId: 0,
-                name: "Part B",
-                icon: "el-icon-message",
-                alias: "Part B",
-                state: "ENABLE",
-                type: "NONE"
-              },
-              {
-                id: "section2_partC",
-                parentMenuId: 0,
-                name: "Part C",
-                icon: "el-icon-message",
-                alias: "Part C",
-                state: "ENABLE",
-                type: "NONE"
-              }
-            ]
-          },
-          {
-            id: "section3",
-            parentMenuId: 0,
-            name: "section III",
-            icon: "el-icon-message",
-            alias: "Section III",
-            state: "ENABLE",
-            type: "NONE"
-          }
-        ]
-      }
-    };
+    return {};
   },
   methods: {
-    onMenuItemSelect(index, indexPath) {
-      // document.getElementById(index).scrollIntoView();
-    },
     onSubMenuOpen(index, indexPath) {
-      console.log(index)
-      // document.getElementById(index).scrollIntoView();
+      console.log(index);
     }
   }
 };
 </script>
 
 <style scoped>
-.el-menu{
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+  width: 200px;
+  min-height: 400px;
+}
+
+.el-menu {
   border-right: none;
 }
 </style>

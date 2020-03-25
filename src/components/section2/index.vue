@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div>
+    <!-- <div>
       <strong class="section_title">Section II Reading Comprehension</strong>
-    </div>
+    </div> -->
     <router-view></router-view>
   </div>
 </template>
